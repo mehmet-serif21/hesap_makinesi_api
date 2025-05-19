@@ -10,7 +10,7 @@ def carpma(a, b):
 
 def bolme(a,b):
     if b==0:
-        raise HTTPException(status_code=400, detail="Sıfıra bölme hatası Şerif abeeeeeee!")
+        raise HTTPException(status_code=400, detail="Sıfıra bölme hatası!")
     else:
         return a/b
     
